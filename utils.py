@@ -8,6 +8,7 @@ import json
 
 load_dotenv()
 
+
 BASE_URL = os.getenv("BASE_URL")
 if not BASE_URL:
     raise ValueError("BASE_URL не задан в .env")
