@@ -1,7 +1,7 @@
 import pytest
 import requests
 import random
-from utils import generate_random_string, register_new_courier_and_return_login_password, login_courier, create_order, BASE_URL
+from utils import generate_random_string, BASE_URL, generate_random_phone_number
 import allure
 
 @allure.epic("Создание заказа")
@@ -21,7 +21,7 @@ class TestCreateOrder:
                 "lastName": generate_random_string(10),
                 "address": generate_random_string(10),
                 "metroStation": random.randint(1, 10),
-                "phone": "+79" + ''.join(str(random.randint(0, 9)) for _ in range(9)),
+                "phone": generate_random_phone_number(),
                 "rentTime": random.randint(1, 10),
                 "deliveryDate": "2024-01-01",
                 "comment": generate_random_string(10),

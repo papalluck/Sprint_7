@@ -1,8 +1,7 @@
-import pytest
 import requests
-import random
-from utils import generate_random_string, register_new_courier_and_return_login_password, login_courier, create_order, BASE_URL
+from utils import BASE_URL
 import allure
+
 
 @allure.epic("Получение списка заказов")
 class TestGetOrdersList:

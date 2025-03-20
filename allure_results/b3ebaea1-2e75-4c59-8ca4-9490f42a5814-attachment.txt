@@ -1,0 +1,2 @@
+[32mINFO    [0m root:utils.py:109 Попытка 1: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier, Method=POST, Status Code=400, Expected Codes=[400]
+[32mINFO    [0m root:utils.py:113 Тело ответа:{"code":400,"message":"Недостаточно данных для создания учетной записи"}

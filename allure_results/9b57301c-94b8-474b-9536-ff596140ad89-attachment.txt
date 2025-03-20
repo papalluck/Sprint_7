@@ -1,0 +1,2 @@
+2025-03-20 15:29:04,191 - INFO - Попытка 1: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier/login, Method=POST, Status Code=400, Expected Codes=[400, 504]
+2025-03-20 15:29:04,191 - INFO - Тело ответа:{"code":400,"message":"Недостаточно данных для входа"}

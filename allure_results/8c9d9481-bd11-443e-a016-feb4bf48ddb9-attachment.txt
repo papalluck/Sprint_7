@@ -1,0 +1,12 @@
+2025-03-20 15:27:55,228 - INFO - Попытка 1: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier, Method=POST, Status Code=201, Expected Codes=[201]
+2025-03-20 15:27:55,228 - INFO - Тело ответа:{"ok":true}
+2025-03-20 15:27:55,363 - INFO - Попытка 1: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier/login, Method=POST, Status Code=200, Expected Codes=[200]
+2025-03-20 15:27:55,363 - INFO - Тело ответа:{"id":488088}
+2025-03-20 15:27:55,483 - INFO - Попытка 1: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier/488088, Method=DELETE, Status Code=200, Expected Codes=[200]
+2025-03-20 15:27:55,483 - INFO - Тело ответа:{"ok":true}
+2025-03-20 15:27:55,483 - INFO - Курьер с ID 488088 успешно удален
+2025-03-20 15:27:55,623 - INFO - Попытка 1: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier, Method=POST, Status Code=201, Expected Codes=[409]
+2025-03-20 15:27:55,623 - INFO - Тело ответа:{"ok":true}
+2025-03-20 15:27:55,623 - WARNING - Ошибка 201, ожидались [409], попытка 1. Повторяем через 5 секунд.
+2025-03-20 15:28:00,824 - INFO - Попытка 2: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier, Method=POST, Status Code=409, Expected Codes=[409]
+2025-03-20 15:28:00,824 - INFO - Тело ответа:{"code":409,"message":"Этот логин уже используется. Попробуйте другой."}

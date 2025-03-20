@@ -1,0 +1,3 @@
+[32mINFO    [0m root:utils.py:109 Попытка 1: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier/login, Method=POST, Status Code=200, Expected Codes=[200]
+[32mINFO    [0m root:utils.py:113 Тело ответа:{"id":488090}
+[32mINFO    [0m root:test_login_courier.py:28 Курьер с ID 488090 успешно авторизован
