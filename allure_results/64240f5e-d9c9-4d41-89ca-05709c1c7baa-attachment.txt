@@ -1,0 +1,10 @@
+2025-03-20 15:27:54,686 - INFO - Попытка 1: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier, Method=POST, Status Code=201, Expected Codes=[201]
+2025-03-20 15:27:54,686 - INFO - Тело ответа:{"ok":true}
+2025-03-20 15:27:54,687 - WARNING - В ответе нет ID курьера, пробуем получить через логин
+2025-03-20 15:27:54,835 - INFO - Попытка 1: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier/login, Method=POST, Status Code=200, Expected Codes=[200]
+2025-03-20 15:27:54,835 - INFO - Тело ответа:{"id":488087}
+2025-03-20 15:27:54,957 - INFO - Попытка 1: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier/login, Method=POST, Status Code=200, Expected Codes=[200]
+2025-03-20 15:27:54,957 - INFO - Тело ответа:{"id":488087}
+2025-03-20 15:27:55,089 - INFO - Попытка 1: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier/488087, Method=DELETE, Status Code=200, Expected Codes=[200]
+2025-03-20 15:27:55,089 - INFO - Тело ответа:{"ok":true}
+2025-03-20 15:27:55,089 - INFO - Курьер с ID 488087 успешно удален

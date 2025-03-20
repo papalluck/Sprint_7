@@ -1,0 +1,2 @@
+2025-03-20 15:29:04,480 - INFO - Попытка 1: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier/login, Method=POST, Status Code=404, Expected Codes=[404]
+2025-03-20 15:29:04,480 - INFO - Тело ответа:{"code":404,"message":"Учетная запись не найдена"}

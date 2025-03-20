@@ -1,0 +1,2 @@
+2025-03-20 15:29:04,063 - INFO - Попытка 1: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier/login, Method=POST, Status Code=504, Expected Codes=[400, 504]
+2025-03-20 15:29:04,064 - INFO - Тело ответа:Service unavailable

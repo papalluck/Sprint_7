@@ -1,0 +1,10 @@
+[32mINFO    [0m root:utils.py:109 Попытка 1: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier, Method=POST, Status Code=201, Expected Codes=[201]
+[32mINFO    [0m root:utils.py:113 Тело ответа:{"ok":true}
+[33mWARNING [0m root:conftest.py:45 В ответе нет ID курьера, пробуем получить через логин
+[32mINFO    [0m root:utils.py:109 Попытка 1: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier/login, Method=POST, Status Code=200, Expected Codes=[200]
+[32mINFO    [0m root:utils.py:113 Тело ответа:{"id":488087}
+[32mINFO    [0m root:utils.py:109 Попытка 1: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier/login, Method=POST, Status Code=200, Expected Codes=[200]
+[32mINFO    [0m root:utils.py:113 Тело ответа:{"id":488087}
+[32mINFO    [0m root:utils.py:109 Попытка 1: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier/488087, Method=DELETE, Status Code=200, Expected Codes=[200]
+[32mINFO    [0m root:utils.py:113 Тело ответа:{"ok":true}
+[32mINFO    [0m root:conftest.py:77 Курьер с ID 488087 успешно удален

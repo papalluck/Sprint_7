@@ -1,0 +1,12 @@
+[32mINFO    [0m root:utils.py:109 Попытка 1: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier, Method=POST, Status Code=201, Expected Codes=[201]
+[32mINFO    [0m root:utils.py:113 Тело ответа:{"ok":true}
+[32mINFO    [0m root:utils.py:109 Попытка 1: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier/login, Method=POST, Status Code=200, Expected Codes=[200]
+[32mINFO    [0m root:utils.py:113 Тело ответа:{"id":488088}
+[32mINFO    [0m root:utils.py:109 Попытка 1: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier/488088, Method=DELETE, Status Code=200, Expected Codes=[200]
+[32mINFO    [0m root:utils.py:113 Тело ответа:{"ok":true}
+[32mINFO    [0m root:test_create_courier.py:68 Курьер с ID 488088 успешно удален
+[32mINFO    [0m root:utils.py:109 Попытка 1: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier, Method=POST, Status Code=201, Expected Codes=[409]
+[32mINFO    [0m root:utils.py:113 Тело ответа:{"ok":true}
+[33mWARNING [0m root:utils.py:118 Ошибка 201, ожидались [409], попытка 1. Повторяем через 5 секунд.
+[32mINFO    [0m root:utils.py:109 Попытка 2: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier, Method=POST, Status Code=409, Expected Codes=[409]
+[32mINFO    [0m root:utils.py:113 Тело ответа:{"code":409,"message":"Этот логин уже используется. Попробуйте другой."}

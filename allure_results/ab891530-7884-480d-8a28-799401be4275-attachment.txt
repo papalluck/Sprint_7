@@ -1,0 +1,2 @@
+[32mINFO    [0m root:utils.py:109 Попытка 1: URL=https://qa-scooter.praktikum-services.ru/api/v1/courier/login, Method=POST, Status Code=404, Expected Codes=[404]
+[32mINFO    [0m root:utils.py:113 Тело ответа:{"code":404,"message":"Учетная запись не найдена"}
